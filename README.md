@@ -26,6 +26,10 @@ Trigger the skill while on a feature branch:
 
 Then paste PR review comments one at a time. The skill will investigate each and give you a verdict before moving to the next.
 
+## More Skills Like This
+
+Found this skill useful? Browse all my hand-crafted ones in the [AI Agents skills](https://github.com/diegopetrucci/ai-agents-skills) repo.
+
 ## License
 
 MIT
