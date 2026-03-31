@@ -1,0 +1,5 @@
+{
+  "name": "pr-comments-triage",
+  "description": "Critically evaluate PR review comments against actual code",
+  "version": "1.0.0"
+}
