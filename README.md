@@ -14,6 +14,15 @@ When you receive PR review comments, this skill investigates each one against th
 
 ## Installation
 
+### As a Claude Code plugin
+
+```shell
+/plugin marketplace add diegopetrucci/ai-agents-skills
+/plugin install pr-comments-triage@diegopetrucci-claude-plugins
+```
+
+### As a skill
+
 ```bash
 npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-comments-triage
 ```
