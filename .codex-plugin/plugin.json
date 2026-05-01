@@ -1,0 +1,21 @@
+{
+  "name": "pr-comments-triage",
+  "version": "1.0.0",
+  "description": "Critically evaluate PR review comments against the actual code.",
+  "author": {
+    "name": "Diego Petrucci",
+    "url": "https://github.com/diegopetrucci"
+  },
+  "repository": "https://github.com/diegopetrucci/pr-comments-triage",
+  "license": "MIT",
+  "keywords": ["pull-requests", "code-review", "triage", "developer-tools"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PR Comments Triage",
+    "shortDescription": "Validate PR review comments",
+    "longDescription": "Investigate pull request review comments against the actual code before deciding whether a requested change is valid.",
+    "developerName": "Diego Petrucci",
+    "category": "Code Review",
+    "capabilities": ["Read", "Write"]
+  }
+}
