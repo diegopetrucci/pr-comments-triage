@@ -27,6 +27,14 @@ npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-co
 /plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
 
+### As a Codex plugin
+
+```shell
+codex plugin marketplace add diegopetrucci/ai-agents-skills
+```
+
+Restart Codex, then install `pr-comments-triage` from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
+
 ## Usage
 
 Trigger the skill while on a feature branch:
