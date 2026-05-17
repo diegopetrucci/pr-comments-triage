@@ -4,7 +4,7 @@ description: Critically evaluate PR review comments against the actual code on t
 license: MIT
 metadata:
   author: Diego Petrucci
-  version: "1.0"
+  version: "1.1"
 ---
 
 # PR Comments Triage
