@@ -23,14 +23,16 @@ npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-co
 ### As a Claude Code plugin
 
 ```shell
-/plugin marketplace add diegopetrucci/ai-agents-skills
+/plugin marketplace add diegopetrucci/ai-agent-skills
 /plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
+
+Run `/reload-plugins` in Claude Code to activate newly installed plugins in the current session.
 
 ### As a Codex plugin
 
 ```shell
-codex plugin marketplace add diegopetrucci/ai-agents-skills
+codex plugin marketplace add diegopetrucci/ai-agent-skills
 ```
 
 Restart Codex, then install `pr-comments-triage` from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
@@ -45,7 +47,7 @@ Then paste PR review comments one at a time. The skill will investigate each and
 
 ## More Skills Like This
 
-Found this skill useful? Browse all my hand-crafted ones in the [AI Agents skills](https://github.com/diegopetrucci/ai-agents-skills) repo.
+Found this skill useful? Browse all my hand-crafted ones in the [AI Agents skills](https://github.com/diegopetrucci/ai-agent-skills) repo.
 
 ## License
 
